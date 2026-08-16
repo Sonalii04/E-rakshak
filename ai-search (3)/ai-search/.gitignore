@@ -1,0 +1,10 @@
+# Local generated indices, embeddings, and database caches
+data/
+outputs/
+
+# Python caching
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env

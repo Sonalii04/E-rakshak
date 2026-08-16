@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Video Files (exclude large video files)
+input/videos/*
+!input/videos/.gitkeep
+output/
+uploads/
+*.avi
+*.mp4
+*.mkv
+*.mov
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+
+# Runtime configurations
+configs/camera_JOB-*.json
+configs/job_JOB-*.yaml
+
